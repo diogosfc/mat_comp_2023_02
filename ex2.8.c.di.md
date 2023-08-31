@@ -1,1 +1,3 @@
-Conclusão,a escolha entre recursão e iteração depende das características do problema e das preocupações de eficiência e uso de memória.
+A abordagem recursiva pode ser mais elegante e mais fácil de entender em alguns casos, mas pode levar a problemas de estouro de pilha se o número de chamadas recursivas for muito grande;
+A abordagem iterativa é mais eficiente em termos de uso de memória, pois não cria uma pilha de chamadas. Ela usa um loop para realizar o mesmo cálculo sem acumular chamadas recursivas;
+Em geral, a recursão pode ser uma escolha adequada quando a estrutura do problema se encaixa naturalmente em chamadas recursivas. No entanto, é importante avaliar os riscos de estouro de pilha e considerar a possibilidade de usar iteração quando se lida com entradas grandes.
